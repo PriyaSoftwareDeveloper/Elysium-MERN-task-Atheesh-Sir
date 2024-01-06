@@ -1,56 +1,51 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>Replicate the output</title>
-    <link href="./task2.css" rel="stylesheet"/>
-</head>
-<body>
+    <link href="./task2.css" rel="stylesheet" />
+  </head>
+  <body>
     <div id="main-div">
-        <div id="div-row1">Top Frame
-           
-        </div>
-        <div id="div-row2">Right Frame
-
-        </div>
-        <div id="div-row3">Left Frame
-
-        </div>
+      <div id="div-row1">Top Frame</div>
+      <div id="div-row2">Right Frame</div>
+      <div id="div-row3">Left Frame</div>
     </div>
-
-</body>
+  </body>
 </html>
 
 CSS:
-#main-div{
-    width: 420px;
-    height: 220px;    
-    border: solid black 1px;
-}
-#div-row1{
-    background-color: red;
-    width:;
-    height: 35px;
-    font-size: x-large;
-    color: white;
-    text-align: center;
+#main-div {
+  width: 420px;
+  height: 220px;
+  border: solid black 1px;
 }
 
-#div-row2{
-    background-color: orange;
-    width:210px;
-    height: 183px;
-    border: solid black 1px;
-    float: right;
-    font-size: x-large;
-    color: white;
-    text-align: center;
+#div-row1 {
+  background-color: red;
+  width: ;
+  height: 35px;
+  font-size: x-large;
+  color: white;
+  text-align: center;
 }
-#div-row3{
-    background-color: orange;
-    width:210px;
-    height: 183px;
-    border: solid black 1px;
-    font-size: x-large;
-    color: white;
-    text-align: center;   
+
+#div-row2 {
+  background-color: orange;
+  width: 210px;
+  height: 183px;
+  border: solid black 1px;
+  float: right;
+  font-size: x-large;
+  color: white;
+  text-align: center;
+}
+
+#div-row3 {
+  background-color: orange;
+  width: 210px;
+  height: 183px;
+  border: solid black 1px;
+  font-size: x-large;
+  color: white;
+  text-align: center;
 }
