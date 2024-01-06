@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS</title>
+    <link href="./jan 5 task css.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>HTML5 and CSS3 - CSS Exercises</h1>
+
+    <p>Exercise 1</p>
+
+    <p><b>Write a HTML code to generate following output</b></p>
+
+    <div id="main-div">
+      <div id="box">
+        <div id="row1">
+          <label>Enter Name of your friend</label>
+          <input
+            id="name"
+            type="text"
+            placeholder="Enter Name of your friend"
+          />
+        </div>
+        <div id="row2">
+          <label>Choose the file you want to post to your friend</label><br />
+          <input id="spacing" type="text" />
+          <input placeholder="Browse..." />
+        </div>
+        <div id="row3">
+          <label>What does the file contain?</label><br />
+          <div id="checkbx1">
+            <input type="checkbox" checked /><label>Image</label>
+            <input type="checkbox" checked /><label>Source code</label>
+            <input type="checkbox" /><label>Binary code</label>
+          </div>
+          <p id="ending">You have completed the Form.</p>
+          <div id="btn">
+            <button>Submit Query</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
