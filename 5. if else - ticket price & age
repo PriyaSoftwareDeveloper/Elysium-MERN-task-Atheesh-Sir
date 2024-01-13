@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Write a program that calculates the ticket price based on age with the
+      following conditions: age below 12 pay a ticket price of 5, age below 18
+      pay a ticket price of 10, age below 60 pay a ticket price of 20, age over
+      60 play a ticket price of 15.
+    </title>
+  </head>
+  <body></body>
+  <script>
+    var age = Number(prompt("Enter your age: "));
+
+    if (age > 0 && age < 12) {
+      console.log("Your ticket price is 5");
+    } else if (age >= 12 && age <= 18) {
+      console.log("Your ticket price is 10");
+    } else if (age >= 19 && age <= 60) {
+      console.log("Your ticket price is 20");
+    } else if (age >= 61) {
+      console.log("Your ticket price is 15");
+    } else {
+      console.log("Wrong Entry");
+    }
+  </script>
+</html>
