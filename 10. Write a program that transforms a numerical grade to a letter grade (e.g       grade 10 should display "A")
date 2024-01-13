@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Write a program that transforms a numerical grade to a letter grade (e.g
+      grade 10 should display "A").
+    </title>
+  </head>
+  <body>
+    Grade
+  </body>
+  <script>
+    var mark = prompt("Enter the Mark: ");
+    if (mark >= 0 && mark <= 70) {
+      console.log(mark + " : D Grade");
+    } else if (mark >= 71 && mark <= 80) {
+      console.log(mark + " : C Grade");
+    } else if (mark >= 81 && mark <= 90) {
+      console.log(mark + " : B Grade");
+    } else if (mark >= 91 && mark <= 100) {
+      console.log(mark + " : A Grade");
+    } else {
+      console.log("Enter valid number");
+    }
+  </script>
+</html>
