@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Print the ODD numbers from 7 to 31</title>
+  </head>
+  <body></body>
+  <script>
+    for (i = 7; i <= 31; i++) {
+      if (i % 2 != 0) {
+        console.log(i);
+        document.write(i + " ");
+      }
+    }
+  </script>
+</html>
