@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Write a program that calculates a discount based on the purchase amount.
+      Prices equal or over 100 discount have a discount of 20. Prices equal or
+      over 50 have a discount of 10. Otherwise discount is 0.
+    </title>
+  </head>
+  <body></body>
+  <script>
+    var price = prompt("Enter the price amount: ");
+
+    if (price >= 50 && price < 100) {
+      console.log("You have a discount of 10");
+    } else if (price >= 100) {
+      console.log("You have a discount of 20");
+    } else {
+      console.log("Your discount is 0");
+    }
+  </script>
+</html>
