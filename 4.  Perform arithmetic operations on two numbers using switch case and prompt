@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Perform arithmetic operations on two numbers using switch case and prompt
+    </title>
+  </head>
+  <body></body>
+  <script>
+    function arithmeticOperations(num1, num2) {
+      var operation = prompt("Choose an operation: + , - , * , /");
+      switch (operation) {
+        case "+":
+          console.log(num1 + num2);
+          break;
+        case "-":
+          console.log(num1 - num2);
+          break;
+        case "*":
+          console.log(num1 * num2);
+          break;
+        case "/":
+          console.log(num1 / num2);
+          break;
+        default:
+          console.log("Wrong entry");
+      }
+    }
+
+    arithmeticOperations(100, 50);
+  </script>
+</html>
