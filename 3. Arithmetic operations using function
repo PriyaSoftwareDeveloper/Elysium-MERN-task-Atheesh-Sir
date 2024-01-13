@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Perform arithmetic operations on two numbers using switch case and prompt
+    </title>
+  </head>
+  <body></body>
+  <script>
+    function arithmeticOperations(a, b) {
+      console.log("add: 100+50 = ", a + b);
+      console.log("sub: 100-50  = ", a - b);
+      console.log("mul: 100*50 = ", a * b);
+      console.log("div: 100/50 = ", a / b);
+      console.log("modulo: 100%50 = ", a % b);
+      console.log("increment: a = ", a++);
+      console.log("increment: a = ", ++a);
+      console.log("decrement: b = ", b--);
+      console.log("decrement: b = ", --b);
+    }
+
+    console.log(arithmeticOperations(100, 50));
+  </script>
+</html>
