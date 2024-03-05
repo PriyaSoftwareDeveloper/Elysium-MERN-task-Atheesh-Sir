@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Write a for loop to iterate over an array of objects and print a specific property of each object.
+let people = [{name: "Alice", age: 30}, {name: "Bob", age: 25}];
+</title>
+</head>
+<body>
+    <script>
+        var people = [{
+            fname: "Atheesh",
+            lname: "Sir",
+            age: 25,
+            job: "Trainer / Programming instructor",
+            gender: "Male",
+            emp_id: 12345,
+        },
+        {
+            fname: "Ramya",
+            lname: "Bharathi",
+            age: 20,
+            job: "Trainee",
+            gender: "Female",
+            emp_id: 67890,
+        },
+        {
+            fname: "Gowsi",
+            lname: "Gowsi",
+            age: 20,
+            job: "Trainee",
+            gender: "Female",
+            emp_id: 54321,
+        },
+        {
+            fname: "Mohana",
+            lname: "Priya",
+            age: 20,
+            job: "Trainee",
+            gender: "Female",
+            emp_id: 98765,
+        }];
+        
+
+        for(var i=0; i<people.length; i++){
+            console.log(people[i].fname);
+        }
+    </script>
+</body>
+</html>
